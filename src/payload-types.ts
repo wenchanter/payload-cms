@@ -195,8 +195,8 @@ export interface Post {
   id: number;
   title: string;
   slug: string;
-  subtitle: string;
-  description: string;
+  subtitle?: string | null;
+  description?: string | null;
   author: number | User;
   tags?: (number | Tag)[] | null;
   content: {

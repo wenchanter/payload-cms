@@ -27,12 +27,10 @@ export const Posts: CollectionConfig = {
     {
         name: 'subtitle',
         type: 'text',
-        required: true,
     },
     {
         name: 'description',
         type: 'text',
-        required: true,
     },
     {
         name: 'author',
